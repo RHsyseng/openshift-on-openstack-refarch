@@ -1,0 +1,9 @@
+= openshift-on-openstack
+Detailed instructions for creating an OpenShift service on OpenStack with resource integration.
+
+This document will focus on installing OpenShift so that it makes the best use of OpenStack resources possible.  The focus will be on three specialty areas:
+
+* Container to Container networking
+* Persistant Storage
+* Authentication and Access Control
+
