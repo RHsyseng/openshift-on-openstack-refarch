@@ -1,0 +1,5 @@
+# Ignore emacs backup files
+*~
+
+# And ignore the output PDF file
+*.pdf
