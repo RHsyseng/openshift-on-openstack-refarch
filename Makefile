@@ -1,6 +1,19 @@
+#
+# Compile PDF from Asciidoc
+#
+
+# This is meant to be run inside a container with proper asciidoctor PDF scripts
+# built in
+
+#Example: sudo docker run -v /local/path/to/paper:/paper -i \
+#         -t asciidoctor:stable-alpha9 make docname=<filename>
+
+
 stable-watermark:
-	asciidoctor-pdf -a pdf-style=asciidoctor-watermark -r asciidoctor-diagram $(docname)
-#Example: sudo docker run -v /local/path/to/paper:/paper -i -t asciidoctor:stable-alpha9 make docname=<filename> && evince <filename>.pdf
+	asciidoctor-pdf -a pdf-style=asciidoctor-watermark \
+	-r asciidoctor-diagram $(docname) ; \
+  chown $(user):$(group) $(docname)
+
 #NOTE: :/paper is the remote location within docker image, leave as is
 
 stable-no-watermark:
