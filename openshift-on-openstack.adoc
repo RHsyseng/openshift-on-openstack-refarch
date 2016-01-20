@@ -62,18 +62,17 @@ Send feedback to refarch-feedback@redhat.com
 
 <<<
 
+include::docs/commentsfeedback.adoc[]
 
-OpenShift is a leading Platform-as-a-Service (PaaS) system and
-OpenStack is the leading open source Infrastructure-as-a-Service
-(IaaS) system.  
+include::docs/introduction.adoc[]
 
+include::docs/preparation.adoc[]
 
-[toc]
+include::docs/installation.adoc[]
 
-== References
+include::docs/references.adoc[]
 
-=== Links
+include::docs/appendix.adoc[]
 
-:Openshift: http://openshift.com
+// vim: set syntax=asciidoc:[]
 
-:OpenStack: http://openstack.org

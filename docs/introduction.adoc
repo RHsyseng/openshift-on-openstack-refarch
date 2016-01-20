@@ -1,0 +1,20 @@
+== Introduction
+
+http://openshift.com[OpenShift] is a premier open source _Platform as a Service_ (PaaS)
+system.  It offers developers a consistant self-service resource for
+containerized applications.  For production services it is a stable
+application publication system.  It has characteristics that make
+_High Availablity_ (HA) and scaling of applications under
+load relatively automatic.
+
+OpenShift offers enterprise quality control and management of
+containerized services.
+
+http://openstack.org[OpenStack] is the leading private cloud
+_Infrastructure as a Service_ (IaaS) system. It puts computational,
+networking and storage resources under software control. Using
+_virtual machines_ (VM) as the unit of computation, _Software Defined
+Networks_ (SDN) to connect the VMs together and with the outside world
+and networked filesystems such as Ceph and Gluster OpenStack overlays
+a set of abstractions that allow the creation of...
+
