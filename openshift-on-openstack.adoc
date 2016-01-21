@@ -72,9 +72,9 @@ include::chapters/preparation.adoc[]
 
 include::chapters/installation.adoc[]
 
-include::chapters/references.adoc[]
-
 include::chapters/visibility.adoc[]
+
+include::chapters/references.adoc[]
 
 include::chapters/appendix.adoc[]
 
