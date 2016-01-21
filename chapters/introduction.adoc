@@ -1,4 +1,28 @@
+[[introduction]]
 == Introduction
+
+=== Goals
+
+The goal of this document is to demonstrate the installation of
+OpenShift in an OpenStack environment with highlights on those
+places where OpenShift can make special use of OpenStack resources.
+
+Ordinarily a service running on OpenStack wouldn't be aware of that
+fact and shouldn't need to be.  OpenShift requires and provides
+several services that could work in concert with OpenStack to improve
+the quality of the user experience for operators, application
+developers and for application users.
+
+This document will concentrate on using those OpenStack resources to
+create and run OpenShift.  It will become clear that most of the
+actual installation process will be handled by orchestration systems,
+_Heat_ and _Ansible_. The challenge is in choosing the correct
+parameters and initial environment so that the result matches
+expectations.  Where it is useful we will show the commands which are
+run to execute the installation beneath the surface.  We will also
+show how to determine that the integrated service is working as expected.
+
+=== OpenShift and OpenStack
 
 http://openshift.com[OpenShift] is a premier open source _Platform as a Service_ (PaaS)
 system.  It offers developers a consistant self-service resource for
@@ -15,6 +39,28 @@ _Infrastructure as a Service_ (IaaS) system. It puts computational,
 networking and storage resources under software control. Using
 _virtual machines_ (VM) as the unit of computation, _Software Defined
 Networks_ (SDN) to connect the VMs together and with the outside world
-and networked filesystems such as Ceph and Gluster OpenStack overlays
-a set of abstractions that allow the creation of...
+and networked filesystems such as Ceph and Gluster, OpenStack overlays
+a set of abstractions that allow the creation of large-scale highly
+flexable computer environments.
+
+In most cases OpenShift uses the resources OpenStack provides in a
+totally transparent way.  OpenShift is installed on VMs within the
+OpenStack service just as if they were on hardware.  The components
+communicate over the network and write to storage just as if it were
+hardware as well.  When this holds, OpenShift is entirely unaware that
+it is running on OpenStack.  This is the purpose of OpenStack.
+
+There are several cases though, where OpenShift offers services to its
+own users, OpenShift can make direct use of OpenStack resources.
+
+==== Installation/Orchestration: _Heat_
+
+==== Container Networking: _Neutron_ and _Flannel_
+
+==== Block Storage: _Cinder_
+
+==== Authentication and Access Control: _Keystone_
+
+=== Integration and Validation
+
 

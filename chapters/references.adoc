@@ -1,1 +1,10 @@
 == References
+
+* http://openshift.com[OpenShift]
+
+* http://openstack.org[OpenStack]
+** http://docs.openstack.org/developer/heat/[OpenStack Heat] - OpenStack Orchestration
+** http://docs.openstack.org/developer/cinder/[OpenStack Cinder] - Block Storage Service
+** http://docs.openstack.org/developer/keystone/[Keyston] - Identity Management
+
+* http://docs.ansible.com/ansible/index.html[Ansible] - Host Orchestration
