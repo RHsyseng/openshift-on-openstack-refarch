@@ -1,0 +1,5 @@
+== Visibility and Validation
+
+Once Heat has done it's work and created the OpenShift service a user
+is going to want to verify that the installation has completed
+successfully and that the service is working as expected.

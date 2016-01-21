@@ -74,6 +74,8 @@ include::chapters/installation.adoc[]
 
 include::chapters/references.adoc[]
 
+include::chapters/visibility.adoc[]
+
 include::chapters/appendix.adoc[]
 
 // vim: set syntax=asciidoc:[]
