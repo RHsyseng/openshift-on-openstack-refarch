@@ -2,4 +2,4 @@
 *~
 
 # And ignore the output PDF file
-*.pdf
+#*.pdf

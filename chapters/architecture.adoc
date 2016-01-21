@@ -1,1 +1,13 @@
 == Architecture
+
+=== OpenStack
+
+=== OpenShift
+
+=== Interactions
+
+==== Networking
+
+==== Storage
+
+==== Authentication
