@@ -62,17 +62,19 @@ Send feedback to refarch-feedback@redhat.com
 
 <<<
 
-include::docs/commentsfeedback.adoc[]
+include::chapters/commentsfeedback.adoc[]
 
-include::docs/introduction.adoc[]
+include::chapters/introduction.adoc[]
 
-include::docs/preparation.adoc[]
+include::chapters/architecture.adoc[]
 
-include::docs/installation.adoc[]
+include::chapters/preparation.adoc[]
 
-include::docs/references.adoc[]
+include::chapters/installation.adoc[]
 
-include::docs/appendix.adoc[]
+include::chapters/references.adoc[]
+
+include::chapters/appendix.adoc[]
 
 // vim: set syntax=asciidoc:[]
 
