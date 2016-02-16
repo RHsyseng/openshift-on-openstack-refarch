@@ -62,21 +62,21 @@ Send feedback to refarch-feedback@redhat.com
 
 <<<
 
-include::chapters/commentsfeedback.adoc[]
+include::chapters/ch00_commentsfeedback.adoc[]
 
-include::chapters/introduction.adoc[]
+include::chapters/ch01_introduction.adoc[]
 
-include::chapters/architecture.adoc[]
+include::chapters/ch02_architecture.adoc[]
 
-include::chapters/preparation.adoc[]
+include::chapters/ch03_preparation.adoc[]
 
-include::chapters/installation.adoc[]
+include::chapters/ch04_installation.adoc[]
 
-include::chapters/visibility.adoc[]
+include::chapters/ch05_visibility.adoc[]
 
-include::chapters/references.adoc[]
+include::chapters/ch06_references.adoc[]
 
-include::chapters/appendix.adoc[]
+include::chapters/ch07_appendix.adoc[]
 
 // vim: set syntax=asciidoc:[]
 

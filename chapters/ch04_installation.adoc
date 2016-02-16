@@ -1,0 +1,22 @@
+== Installation
+
+OpenStack offers an orchestration component called
+https://wiki.openstack.org/wiki/Heat[Heat]. This is a template
+system. The user provides a set of customizing parameters and then
+submits those and the template to the Heat service which then creates
+a _stack_, the named deployment of the new application.
+
+
+=== Starting a Stack
+
+.Heat Stack-Create
+----
+heat stack-create <stack name> -e <parameter file> -t <template>
+
+----
+
+
+=== Monitoring the Stack Creation Process
+
+
+=== 
